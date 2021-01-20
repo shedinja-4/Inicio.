@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tareas</title>
+</head>
+<body background="5.jpg">
+<link rel="stylesheet" href="Css-de-pagina.css">
+<center><div class="titulo"><img src="3.jpg" class="a"><p class="b">TAREAS TECNOLOGIA</p></div></center>
+<div class="usuario">
+	<img src="3.jpg" class="c">
+	<div class="Usu1">
+	<p>Es un estudiante de neosistemas que</p>
+	<p>pertenece al grado 10 con una edad de</p>
+	<p>15 años, sus pasatiempos favoritos son</p>
+	<p>dibujar y participar de conversaciones</p>
+	<p>virtuales.</p>
+	</div>
+	<img src="A1.png" class="d">
+</div>
+<center><div class="A2" onclick="A()" id="a1">I</div></center>
+<center><div class="B2" onclick="B()" id="b1">II</div></center>
+<center><div class="C2" onclick="C()" id="c1">III</div></center>
+<center><div class="D2" onclick="D()" id="d1">IV</div></center>
+<div class="No" id="a3">
+	<center><p class="TA">Periodo I</p></center>
+	<div><a href="https://shedinja-4.github.io/Inicio./">Actividad 1</a></div>
+</div>
+<div class="No" id="b3">
+	<center><p class="TA">Periodo II</p></center>
+	<div></div>
+</div>
+<div class="No" id="c3">
+	<center><p class="TA">Periodo III</p></center>
+	<div></div>
+</div>
+<div class="No" id="d3">
+	<center><p class="TA">Periodo IV</p></center>
+	<div></div>
+</div>
+<script>
+	var a1 = document.getElementById("a1");
+	var a3 = document.getElementById("a3");
+	var b1 = document.getElementById("b1");
+	var b3 = document.getElementById("b3");
+	var c1 = document.getElementById("c1");
+	var c3 = document.getElementById("c3");
+	var d1 = document.getElementById("d1");
+	var d3 = document.getElementById("d3");
+	var conP;
+	conP=0;
+	function A() {
+		if (conP==0)
+    	{
+    	a1.className = "A21";
+    	a3.className = "A3";
+    	conP=1;
+        }
+    else
+        {
+            if (conP==1)
+            {
+            a1.className = "A2";
+            a3.className = "No";
+            conP=0;
+            }
+            else
+            {
+            	conP=0;
+            }
+        }
+	}
+	function B() {
+		if (conP==0)
+    	{
+    	b1.className = "B21";
+    	b3.className = "B3";
+    	conP=1;
+        }
+    else
+        {
+            if (conP==1)
+            {
+            b1.className = "B2";
+            b3.className = "No";
+            conP=0;
+            }
+            else
+            {
+            	conP=0;
+            }
+        }
+	}
+	function C() {
+		if (conP==0)
+    	{
+    	c1.className = "C21";
+    	c3.className = "C3";
+    	conP=1;
+        }
+    else
+        {
+            if (conP==1)
+            {
+            c1.className = "C2";
+            c3.className = "No";
+            conP=0;
+            }
+            else
+            {
+            	conP=0;
+            }
+        }
+	}
+	function D() {
+		if (conP==0)
+    	{
+    	d1.className = "D21";
+    	d3.className = "D3";
+    	conP=1;
+        }
+    else
+        {
+            if (conP==1)
+            {
+            d1.className = "D2";
+            d3.className = "No";
+            conP=0;
+            }
+            else
+            {
+            	conP=0;
+            }
+        }
+	}
+</script>
+</body>
+</html>
