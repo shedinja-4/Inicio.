@@ -1,0 +1,242 @@
+.titulo {
+	height: 100px;
+	width: 400px;
+	position: absolute;
+	top: 0px;
+	left: 35%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+}
+.usuario {
+	height: 350px;
+	width: 500px;
+	position: absolute;
+	top: 200px;
+	left: 10%;
+	color: white;
+}
+.Usu1 {
+	position: absolute;
+	top: 5%;
+	right: 2%;
+	color: orange;
+	font-family: Tahoma;
+	font-size: 15px;
+    text-shadow: 2px 2px 2px yellow;
+}
+.a {
+	height: 100px;
+	width: 400px;
+}
+.b {
+	position: relative;
+	top: -93px;
+}
+.c {
+	position: relative;
+	height: 350px;
+	width: 500px;
+}
+.d {
+	position: absolute;
+	height: 280px;
+	width: 200px;
+	top: 30px;
+	left: 20px;
+}
+.A2 {
+	background-color: #275478;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 200px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+}
+.B2 {
+	background-color: #0E02A3;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 237.5px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+}
+.C2 {
+	background-color: #2D1560;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 275px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+}
+.D2 {
+	background-color: #290832;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 312.5px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+}
+.No {
+	display: none;
+}
+.A21 {
+	background-color: #275478;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 200px;
+    right: 36%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandarA;
+}
+.A3 {
+	background-color: #275478;
+	height: 350px;
+	width: 500px;
+	position: absolute;
+	top: 200px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandar;
+}
+.B21 {
+	background-color: #0E02A3;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 237.5px;
+    right: 36%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandarA;
+}
+.B3 {
+	background-color: #0E02A3;
+	height: 350px;
+	width: 500px;
+	position: absolute;
+	top: 237.5px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandar;
+}
+.C21 {
+	background-color: #2D1560;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 275px;
+    right: 36%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandarA;
+}
+.C3 {
+	background-color: #2D1560;
+	height: 350px;
+	width: 500px;
+	position: absolute;
+	top: 275px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandar;
+}
+.D21 {
+	background-color: #290832;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 312.5px;
+    right: 36%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandarA;
+}
+.D3 {
+	background-color: #290832;
+	height: 330px;
+	width: 500px;
+	position: absolute;
+	top: 312.5px;
+    right: 0%;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+    text-shadow: 2px 2px 2px yellow;
+    animation-duration: 2s;
+	animation-name: agrandar;
+}
+@keyframes agrandarA {
+  from {
+  	right: 0%;
+  }
+
+  to {
+    right: 36%;
+  }
+}
+@keyframes agrandar {
+  from {
+  	width: 0px;
+  }
+
+  to {
+    width: 500px;
+  }
+}
